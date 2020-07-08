@@ -1,30 +1,30 @@
-// @import "common/foundation/variables";
+@import "common/foundation/variables";
 
-// .foobar {
-//   display: flex;
-//   justify-content: flex-end;
-//   background: $secondary-high;
-//   padding: .5em 0;
-//   button {
-//     margin: .25em;
-//   }
-// }
+.foobar {
+  display: flex;
+  justify-content: flex-end;
+  background: $secondary-high;
+  padding: .5em 0;
+  button {
+    margin: .25em;
+  }
+}
 
 
-// .hello-world-banner {
-//     height: 300px;
-//     width: 100%;
-//     background: black;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     margin-bottom: 1em;
-// }
+.hello-world-banner {
+    height: 300px;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
 
-// .hello-world {
-//     font-size: 8em;
-//     color: white;
-// }
+.hello-world {
+    font-size: 8em;
+    color: white;
+}
 
 
 
