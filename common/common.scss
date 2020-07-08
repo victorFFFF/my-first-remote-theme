@@ -27,12 +27,3 @@
 }
 
 
-.zbox {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 200px;
-    background: red;
-    z-index: z("header") - 1;
-}
