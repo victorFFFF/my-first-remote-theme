@@ -27,40 +27,40 @@
 }
 
 
-@import "common/foundation/variables";
+// @import "common/foundation/variables";
 
-.sidebar {
-  background: $secondary-high;
-  padding: 0 1em;
-  .card {
-  background: $secondary;
-  height: 200px;
-  width: 200px;
-  padding: .5em;
-  margin: .5em 0;
-  box-sizing: border-box;
-  }
-}
+// .sidebar {
+//   background: $secondary-high;
+//   padding: 0 1em;
+//   .card {
+//   background: $secondary;
+//   height: 200px;
+//   width: 200px;
+//   padding: .5em;
+//   margin: .5em 0;
+//   box-sizing: border-box;
+//   }
+// }
 
-table.topic-list {
-  display: flex;
-}
+// table.topic-list {
+//   display: flex;
+// }
 
 
-.sidebar {
-  background: $primary;
-  padding: 0 1em;
-  .card {
-  background: $tertiary;
-  height: 200px;
-  width: 200px;
-  padding: .5em;
-  margin: .5em 0;
-  box-sizing: border-box;
-  }
-}
+// .sidebar {
+//   background: $primary;
+//   padding: 0 1em;
+//   .card {
+//   background: $tertiary;
+//   height: 200px;
+//   width: 200px;
+//   padding: .5em;
+//   margin: .5em 0;
+//   box-sizing: border-box;
+//   }
+// }
 
-table.topic-list {
-  display: flex;
-}
+// table.topic-list {
+//   display: flex;
+// }
 
