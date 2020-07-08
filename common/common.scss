@@ -1,4 +1,4 @@
-@import "common/foundation/variables";
+// @import "common/foundation/variables";
 
 // .foobar {
 //   display: flex;
@@ -26,30 +26,32 @@
 //     color: white;
 // }
 
-.footer {
-  background: $primary-low;
-  .wrap {
-    display: flex;
-  }
-  ul {
-    display: flex;
-    flex: 1;
-    margin: 0;
-  }
-  li {
-    list-style: none;
-    margin: 1em;
-    font-size: $font-up-1;
-    color: $secondary;
-  }
-  .footer-logo {
-    display: flex;
-    align-items: center;
-    img {
-      max-height: 40px;
-    }
-  }
-}
+
+
+// .footer {
+//   background: $primary-low;
+//   .wrap {
+//     display: flex;
+//   }
+//   ul {
+//     display: flex;
+//     flex: 1;
+//     margin: 0;
+//   }
+//   li {
+//     list-style: none;
+//     margin: 1em;
+//     font-size: $font-up-1;
+//     color: $secondary;
+//   }
+//   .footer-logo {
+//     display: flex;
+//     align-items: center;
+//     img {
+//       max-height: 40px;
+//     }
+//   }
+// }
 
 
 // @import "common/foundation/variables";
@@ -88,4 +90,34 @@
 // table.topic-list {
 //   display: flex;
 // }
+
+
+
+
+@import "common/foundation/variables";
+
+.footer {
+  background: $primary-low;
+  .wrap {
+    display: flex;
+  }
+  ul {
+    display: flex;
+    flex: 1;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+    margin: 1em;
+    font-size: $font-up-1;
+    color: $secondary;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    img {
+      max-height: 40px;
+    }
+  }
+}
 
