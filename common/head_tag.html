@@ -1,26 +1,44 @@
 <script type="text/discourse-plugin" version="0.8">
     console.log(Discourse)
     console.log($(this))
-</script>
 
 
 
-<script type="text/discourse-plugin" version="0.8">
+
   const user = api.getCurrentUser();
   
   console.log(user)
   
   api.replaceIcon('heart', 'thumbs-up');
-</script>
 
 
-<script type="text/discourse-plugin" version="0.8">
+
+
   $( document ).ready(function() {
     const user = api.getCurrentUser(),
       username = user.username;
 
     $('h1.hello-world').html('Hello there '+username+"!")
   });
+
+
+
+api.modifyClass("controller:composer", {
+  actions: {
+    typed() {
+      console.log("typed a letter");
+      this.checkReplyLength();
+      this.get("model").typing();
+    }
+  }
+});
+
+
+
+api.modifyClass("component:discovery-categories", {
+  didInsertElement: function() {
+    this._super();
+    console.log("Welcome to the categories page!")
+  }
+});
 </script>
-
-
