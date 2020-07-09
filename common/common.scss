@@ -28,50 +28,32 @@
 
 
 
-// .footer {
-//   background: $primary-low;
-//   .wrap {
-//     display: flex;
-//   }
-//   ul {
-//     display: flex;
-//     flex: 1;
-//     margin: 0;
-//   }
-//   li {
-//     list-style: none;
-//     margin: 1em;
-//     font-size: $font-up-1;
-//     color: $secondary;
-//   }
-//   .footer-logo {
-//     display: flex;
-//     align-items: center;
-//     img {
-//       max-height: 40px;
-//     }
-//   }
-// }
+.footer {
+  background: $primary-low;
+  .wrap {
+    display: flex;
+  }
+  ul {
+    display: flex;
+    flex: 1;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+    margin: 1em;
+    font-size: $font-up-1;
+    color: $secondary;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    img {
+      max-height: 40px;
+    }
+  }
+}
 
 
-// @import "common/foundation/variables";
-
-// .sidebar {
-//   background: $secondary-high;
-//   padding: 0 1em;
-//   .card {
-//   background: $secondary;
-//   height: 200px;
-//   width: 200px;
-//   padding: .5em;
-//   margin: .5em 0;
-//   box-sizing: border-box;
-//   }
-// }
-
-// table.topic-list {
-//   display: flex;
-// }
 
 
 // .sidebar {
