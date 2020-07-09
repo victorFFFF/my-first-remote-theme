@@ -20,3 +20,10 @@
     $('h1.hello-world').html('Hello there '+username+"!")
   });
 </script>
+
+
+<script type="text/discourse-plugin" version="0.8">
+  const user = api.getCurrentUser();
+  
+  console.log(user)
+</script>
